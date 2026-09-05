@@ -46,13 +46,11 @@ Because this Python script automatically monitors your screen layout and sends a
 
 ## How to Run the AI
 
-1. Open **Google Chrome** and navigate to [crossyroadgame.io](https://crossyroadgame.io).
-2. Keep the browser window visible on your main screen.
-3. Launch the AI script by running this command in your Terminal:
+1. Launch the AI script by running this command in your Terminal:
    ```bash
    python3 crossy_road_ai.py
    ```
-4. **Take your hands off your keyboard and mouse!** The script will automatically pull Google Chrome to the front and begin training the chicken.
+2. **Take your hands off your keyboard and mouse!** The script will automatically pull Google Chrome to the front and begin training the chicken.
 
 ### How to Pause / Stop Training
 Simply click away from Google Chrome onto your desktop background or another application. The script's built-in safety monitor will instantly freeze the neural network tensors, save the current model weights to a file named `crossy_road_brain.pth`, and shut down safely.
